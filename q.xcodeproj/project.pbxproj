@@ -13,6 +13,7 @@
 		26AE89301ED90AD00071D79C /* q.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26AE892E1ED90AD00071D79C /* q.xcdatamodeld */; };
 		26AE89321ED90AD00071D79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AE89311ED90AD00071D79C /* Assets.xcassets */; };
 		26AE89351ED90AD00071D79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AE89331ED90AD00071D79C /* LaunchScreen.storyboard */; };
+		26F96ECE1EDCB8C300A8B495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26F96ECD1EDCB8C300A8B495 /* GoogleService-Info.plist */; };
 		3711B2865D363C9E847CE5C4 /* Pods_q.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7D8463C9E6B8D09192BEA0 /* Pods_q.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		26AE89311ED90AD00071D79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AE89341ED90AD00071D79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AE89361ED90AD00071D79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F96ECD1EDCB8C300A8B495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E7D8463C9E6B8D09192BEA0 /* Pods_q.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_q.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F89909B4F184F06EE6E6EC /* Pods-q.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-q.release.xcconfig"; path = "Pods/Target Support Files/Pods-q/Pods-q.release.xcconfig"; sourceTree = "<group>"; };
 		ED1615F54DEEDCD8C20BF9D0 /* Pods-q.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-q.debug.xcconfig"; path = "Pods/Target Support Files/Pods-q/Pods-q.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				26AE892B1ED90AD00071D79C /* Main.storyboard */,
 				26AE89311ED90AD00071D79C /* Assets.xcassets */,
 				26AE89331ED90AD00071D79C /* LaunchScreen.storyboard */,
+				26F96ECD1EDCB8C300A8B495 /* GoogleService-Info.plist */,
 				26AE89361ED90AD00071D79C /* Info.plist */,
 				26AE892E1ED90AD00071D79C /* q.xcdatamodeld */,
 			);
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AE89351ED90AD00071D79C /* LaunchScreen.storyboard in Resources */,
+				26F96ECE1EDCB8C300A8B495 /* GoogleService-Info.plist in Resources */,
 				26AE89321ED90AD00071D79C /* Assets.xcassets in Resources */,
 				26AE892D1ED90AD00071D79C /* Main.storyboard in Resources */,
 			);
@@ -343,8 +347,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KDGWDMD53Y;
 				INFOPLIST_FILE = q/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamhuang.q;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellowilliam.q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -357,8 +362,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KDGWDMD53Y;
 				INFOPLIST_FILE = q/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamhuang.q;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellowilliam.q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -383,6 +389,7 @@
 				26AE893B1ED90AD00071D79C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

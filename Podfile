@@ -6,5 +6,7 @@ target 'q' do
   use_frameworks!
 
   # Pods for q
+  
+  pod 'Firebase/Core'
 
 end
